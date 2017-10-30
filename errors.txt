@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scenes/m3S.rpy", line 114: reached end of line when expecting ':'.
+    if (q3 == "a") && (q1 == "a") && (q2 == "a")
+                                                ^
+
+Ren'Py Version: Ren'Py 6.99.12.3.2123

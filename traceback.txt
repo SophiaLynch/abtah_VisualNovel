@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scenes/credits.rpy", line 20, in script
+    init python:
+  File "game/scenes/credits.rpy", line 26, in <module>
+    credits_s += "\n{size=40}" + c[0] + "\n"
+NameError: name 'credits_s' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\C\Users\Sophia\Documents\renpy-6.99.12.3-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "D:\C\Users\Sophia\Documents\renpy-6.99.12.3-sdk\renpy\main.py", line 419, in main
+    game.context().run(node)
+  File "game/scenes/credits.rpy", line 20, in script
+    init python:
+  File "D:\C\Users\Sophia\Documents\renpy-6.99.12.3-sdk\renpy\ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\C\Users\Sophia\Documents\renpy-6.99.12.3-sdk\renpy\python.py", line 1715, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/scenes/credits.rpy", line 26, in <module>
+    credits_s += "\n{size=40}" + c[0] + "\n"
+NameError: name 'credits_s' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.3.2123
+Anything but True and Honest 1.0

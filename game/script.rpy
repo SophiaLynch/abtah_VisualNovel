@@ -37,6 +37,11 @@ image cHappB = "charles_happyB.png"
 image cSur = "charles_surprise.png"
 image cSurB = "charles_surpriseB.png"
 
+# background images
+image bgGen = "intro.png"
+image bgText = "textintro.png"
+image bedrm = "bedroom.png"
+
 # Start of the game
 
 label start:
@@ -45,11 +50,21 @@ label start:
     
     # Show background
 
-    #scene bg room
-
     # Dialogue starts now
+    
+    scene bgText
+    
+    pause 10
 
-    "\"I can't understand why a girl like you-\" he began, and fell right into the oldest conviction in the world- that the girl you are in love with can't possibly be anything but true and honest. \(9.1.11\)"
+    with Dissolve(.5)
+            
+    pause .5
+    
+    scene bgGen
+    
+    with Dissolve(.5)
+            
+    pause .5
 
     c "{i}Where am I?{/i}"
     c "{i}What happened to me?{/i}"
@@ -74,7 +89,16 @@ label start:
     # play music
     play music "/audio/StepneyDesire.mp3" fadein 1 fadeout 2
     
+    scene bedrm
+    
+    with Dissolve(.5)
+            
+    pause .5
+    
     show aConB
+    
+    
+    
     who "Oh, thank goodness!"
     who "I was so worried when we found you; there were bruises everywhere! You're terribly hurt."
     

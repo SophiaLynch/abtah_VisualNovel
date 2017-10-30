@@ -1,4 +1,6 @@
 # abtah_VisualNovel
-A visual novel based on John Steinbeck's novel "East of Eden." For the CSH 24 hour fall hackathon.
+"Anything but True and Honest"
 
-Current code uploaded is unfinished, still needs finished routes, endings and art/music assets.
+A visual novel based on John Steinbeck's novel "East of Eden." For the CSH 24 hour fall hackathon, started on 10/27/17-10/30/17.
+
+Current code uploaded is unfinished. Needs all backgrounds, working on fixing the end credits.

@@ -15,7 +15,7 @@ label adamEnding:
     
     hide aCon
     show aSurB
-    "Cathy held his hands in her, smiling shyly up at her fiancee who's face was ecstatic."
+    "Cathy held his hands in hers, smiling shyly up at her fiancee who's face was ecstatic."
     
     a "Thank goodness. I'm not sure how well I'd fare without you in my life, Cathy."
     a "You're everything to me, you know?"
